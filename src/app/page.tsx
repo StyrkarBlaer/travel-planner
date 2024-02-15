@@ -1,5 +1,7 @@
-import Header from '../components/header';
-import Footer from '../components/footer';
+import Header from '@/components/header';
+import Footer from '@/components/footer';
+import AutoCompleteInput from '@/components/AutoCompleteInput';
+import DateRangePicker from '@/components/DatePicker'
 
 export default function Home() {
   return (
@@ -7,17 +9,19 @@ export default function Home() {
       <Header />
 
       <main className="container mx-auto">
-        <div className="p-4 border border-gray-300 rounded-lg">
-          <ul>
-            <li>landing page that takes your desired location</li>
-            <li>Landing page also take dates optionally</li>
-            <li>"Start Planning" Button (very original)</li>
-            <li>offered interesting places and things to do based on selected location</li>
-            <li>can fill dates with selected things to do</li>
-            <li>save the result as some list</li>
-            <li>make tests</li>
-          </ul>
+
+      <div className="border border-gray-50 flex flex-col justify-center min-h-screen">
+        <div className="text-center">
+          <p className='h-11'>Where to?</p>
         </div>
+        <div className='p-4 border border-gray-50'>
+          <AutoCompleteInput />
+        </div>
+        <div className='p-4 border border-gray-50'>
+          <DateRangePicker />
+        </div>
+      </div>
+
       </main>
 
       <Footer />
