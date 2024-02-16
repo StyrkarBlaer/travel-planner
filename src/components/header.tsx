@@ -1,9 +1,9 @@
 export default function Header() {
   return (
-    <header className="bg-gray-800 text-white p-4 text-center">
-      <div className="container mx-auto">
-        <p>Yeah</p>
-      </div>
+    <header className="bg-gray-900 text-green-600 p-4">
+      <h1 className=" container text-xl font-bold ml-auto text-left">
+        Travel Planning?
+      </h1>
     </header>
   );
 };
