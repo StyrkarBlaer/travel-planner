@@ -9,7 +9,6 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@types/wojtekmaj__react-daterange-picker": "^5.0.1",
     "@wojtekmaj/react-daterange-picker": "^5.5.0",
     "date-fns": "^3.3.1",
     "next": "14.0.4",
