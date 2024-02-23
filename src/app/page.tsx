@@ -14,7 +14,7 @@ export default function Home() {
               <h1 className="font-bold text-3xl text-center">Where to?</h1>
             </div>
 
-              <form>
+            <form>
                 <div className='p-4'>
                   <AutoCompleteInput />
                 </div>
@@ -29,9 +29,9 @@ export default function Home() {
                     <span> Go places </span>
                   </div>
                 </button>
-
               </div>
             </form>
+            
           </div>
         </div>
       <Footer />
