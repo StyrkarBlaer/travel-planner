@@ -1,4 +1,5 @@
 import { useRouter } from 'next/router';
+import '../app/globals.css';
 import Header from '@/components/header';
 import Footer from '@/components/footer';
 
@@ -10,7 +11,7 @@ export default function country() {
   return (
     <main>
       <Header />
-      <h1>Location: {location}</h1>
+      Time to do some api stuff to get a list of interesting locations for {location} i suppose
       <Footer />
     </main>
   )
