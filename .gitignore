@@ -35,4 +35,8 @@ yarn-error.log*
 *.tsbuildinfo
 next-env.d.ts
 
+# api keys
+.env
+
+# personal
 TODO.txt
