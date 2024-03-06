@@ -6,9 +6,12 @@ import DatePicker from '@/components/DatePicker'
 export default function Hero() {
 
     // change the url that the form spits out to accomidate the routing nextjs wants.
+    const router = useRouter();
+    
     const handleSubmit = (e: any) => {
       e.preventDefault();
-      useRouter().push(`/${e.target.location.value}`);
+      const location = e.target.location.value;
+      router.push(`/${location}`);
     };
 
     return (
